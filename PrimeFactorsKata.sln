@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrimeFactorsKata", "PrimeFactorsKata\PrimeFactorsKata.vcxproj", "{7A5B3A40-835F-4C5F-B7EA-89DA18224334}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrimeFactorsKata-Test1", "PrimeFactorsKata-Test1\PrimeFactorsKata-Test1.vcxproj", "{3F729B60-C4C7-447B-975C-0F4061DA946D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{3D4172AB-C415-4ED0-9BD8-7A01647EE37E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A5B3A40-835F-4C5F-B7EA-89DA18224334}.Debug|x64.ActiveCfg = Debug|x64
+		{7A5B3A40-835F-4C5F-B7EA-89DA18224334}.Debug|x64.Build.0 = Debug|x64
+		{7A5B3A40-835F-4C5F-B7EA-89DA18224334}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A5B3A40-835F-4C5F-B7EA-89DA18224334}.Debug|x86.Build.0 = Debug|Win32
+		{7A5B3A40-835F-4C5F-B7EA-89DA18224334}.Release|x64.ActiveCfg = Release|x64
+		{7A5B3A40-835F-4C5F-B7EA-89DA18224334}.Release|x64.Build.0 = Release|x64
+		{7A5B3A40-835F-4C5F-B7EA-89DA18224334}.Release|x86.ActiveCfg = Release|Win32
+		{7A5B3A40-835F-4C5F-B7EA-89DA18224334}.Release|x86.Build.0 = Release|Win32
+		{3F729B60-C4C7-447B-975C-0F4061DA946D}.Debug|x64.ActiveCfg = Debug|x64
+		{3F729B60-C4C7-447B-975C-0F4061DA946D}.Debug|x64.Build.0 = Debug|x64
+		{3F729B60-C4C7-447B-975C-0F4061DA946D}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F729B60-C4C7-447B-975C-0F4061DA946D}.Debug|x86.Build.0 = Debug|Win32
+		{3F729B60-C4C7-447B-975C-0F4061DA946D}.Release|x64.ActiveCfg = Release|x64
+		{3F729B60-C4C7-447B-975C-0F4061DA946D}.Release|x64.Build.0 = Release|x64
+		{3F729B60-C4C7-447B-975C-0F4061DA946D}.Release|x86.ActiveCfg = Release|Win32
+		{3F729B60-C4C7-447B-975C-0F4061DA946D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {812C4CC4-C758-435F-BC14-E7554FA2F890}
+	EndGlobalSection
+EndGlobal
