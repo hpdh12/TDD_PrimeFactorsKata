@@ -22,18 +22,13 @@ public:
 			}
 			else if(num == 6)
 			{
-				while((num % divisor) == 0)
-				{
-					result.push_back(divisor);
-					num /= divisor;
+				for (divisor = 2; num > 1; divisor++) {
+					while ((num % divisor) == 0)
+					{
+						result.push_back(divisor);
+						num /= divisor;
+					}
 				}
-				divisor++;
-				while ((num % divisor) == 0)
-				{
-					result.push_back(divisor);
-					num /= divisor;
-				}
-				divisor++;
 			}
 			else
 			{
