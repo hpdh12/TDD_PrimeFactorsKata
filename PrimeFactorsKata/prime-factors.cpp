@@ -27,11 +27,13 @@ public:
 					result.push_back(divisor);
 					num /= divisor;
 				}
-				while ((num % 3) == 0)
+				divisor++;
+				while ((num % divisor) == 0)
 				{
-					result.push_back(3);
-					num /= 3;
+					result.push_back(divisor);
+					num /= divisor;
 				}
+				divisor++;
 			}
 			else
 			{
