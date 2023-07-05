@@ -10,3 +10,10 @@ TEST(PrimeFactorTest, Of1) {
 
 	EXPECT_EQ(expected, primeFactor.of(1));
 }
+
+TEST(PrimeFactorTest, Of2) {
+	PrimeFactor primeFactor;
+	vector<int> expected = {2};
+
+	EXPECT_EQ(expected, primeFactor.of(2));
+}
