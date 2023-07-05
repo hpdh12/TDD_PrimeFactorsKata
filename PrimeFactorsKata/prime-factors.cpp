@@ -5,11 +5,11 @@ using namespace std;
 class PrimeFactor
 {
 public:
-	vector<int> of(int i)
+	vector<int> of(int num)
 	{
 		vector<int> result = {};
 
-		if (i == 1) return result;
+		if (num == 1) return result;
 
 		return result;
 	}
