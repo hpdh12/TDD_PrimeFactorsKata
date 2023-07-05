@@ -9,7 +9,6 @@ public:
 	{
 		vector<int> result = {};
 
-		if (num == 1) return result;
 		if (num == 2)
 		{
 			result.push_back(2);
